@@ -25,7 +25,7 @@ public final class BookContract {
         public final static String TABLE_NAME = "books";
 
         /**
-         * Unique ID number for the pet (only for use in the database table).
+         * Unique ID number for the book (only for use in the database table).
          * <p>
          * Type: INTEGER
          */

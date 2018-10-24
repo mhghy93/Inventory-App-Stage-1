@@ -85,7 +85,7 @@ public class EditorActivity extends AppCompatActivity {
         values.put(BookEntry.COLUMN_SUPPLIER_NAME, supplierNameString);
         values.put(BookEntry.COLUMN_SUPPLER_PHONE_NUMBER, supplierPhoneNumberString);
 
-        // Insert a new row for pet in the database, returning the ID of that new row.
+        // Insert a new row for book in the database, returning the ID of that new row.
         long newRowId = db.insert(BookEntry.TABLE_NAME, null, values);
 
         // Show a toast message depending on whether or not the insertion was successful
@@ -112,7 +112,7 @@ public class EditorActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             // Respond to a click on the "Save" menu option
             case R.id.action_save:
-                // Save pet to database
+                // Save book to database
                 insertBook();
                 // Exit activity
                 finish();

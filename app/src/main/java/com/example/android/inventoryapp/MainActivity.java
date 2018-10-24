@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
         try {
             // Create a header in the Text View that looks like this:
             //
-            // The pets table contains <number of rows in Cursor> pets.
+            // The books table contains <number of rows in Cursor> pets.
             // _id - product_name - price - quantity - supplier_name - supplier_phone_number
             //
             // In the while loop below, iterate through the rows of the cursor and display
