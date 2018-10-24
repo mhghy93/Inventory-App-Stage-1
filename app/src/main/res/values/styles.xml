@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for textView in the activity editor -->
+    <style name="EditorTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/activity_text_size</item>
+        <item name="android:textSize">@dimen/activity_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Style for editText in the activity editor -->
+    <style name="EditorEditTextStyle">
+        <item name="android:layout_width">@dimen/edit_text_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/activity_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_margin</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+</resources>
